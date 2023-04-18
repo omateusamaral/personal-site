@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Footer } from "./Components/Footer";
 import { IntroductionSection } from "./Components/IntroductionSection";
 import Navbar from "./Components/Navbar";
 import { TimeLineSection } from "./Components/TimeLineSection";
@@ -20,6 +21,7 @@ export default function Home() {
       >
         <IntroductionSection />
         <TimeLineSection />
+        <Footer />
       </main>
     </>
   );

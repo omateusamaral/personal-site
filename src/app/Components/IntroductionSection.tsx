@@ -5,13 +5,7 @@ import { SocialMedias } from "./SocialMedias";
 
 export function IntroductionSection() {
   return (
-    <section
-      className=" p-4 pb-8  w-full"
-      style={{
-        background:
-          "linear-gradient(254deg, rgba(2,0,36,1) 0%, rgba(27,27,50,1) 30%, rgba(13,13,14,1) 100%)",
-      }}
-    >
+    <section className=" p-4 pb-8  w-full bg-zinc-950">
       <div className="flex justify-center">
         <div className="mr-10">
           <h1 className="text-4xl font-normal leading-normal mt-0 mb-2 text-white">
