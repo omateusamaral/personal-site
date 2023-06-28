@@ -5,7 +5,13 @@ import Navbar from "./Components/Navbar";
 import { TimeLineSection } from "./Components/TimeLineSection";
 
 const inter = Inter({ subsets: ["latin"] });
+import { getAnalytics, logEvent } from "firebase/analytics";
 
+const analytics = getAnalytics();
+logEvent(analytics, "page_view", {
+  page_location: "Home",
+  page_title: "Mateus Amaral",
+});
 export default function Home() {
   return (
     <>
