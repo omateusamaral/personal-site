@@ -13,8 +13,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   useEffect(() => {
     logEvent(getAnalytics(app), "page_view", {
-      page_location: window.location.hostname,
-      page_path: window.location.pathname,
+      page_location: "/",
+      page_path: "/",
       page_title: "Mateus Amaral",
     });
   }, []);
