@@ -12,11 +12,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   useEffect(() => {
-    logEvent(getAnalytics(app), "page_view", {
-      page_location: "/",
-      page_path: "/",
-      page_title: "Mateus Amaral",
-    });
+    if (typeof window !== "undefined") {
+      logEvent(getAnalytics(app), "page_view", {
+        page_location: "/",
+        page_path: "/",
+        page_title: "Mateus Amaral",
+      });
+    }
   }, []);
   return (
     <>

@@ -22,5 +22,7 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig, {
   automaticDataCollectionEnabled: true,
 });
-getAnalytics(app);
-getPerformance(app);
+if (typeof window !== "undefined") {
+  getAnalytics(app);
+  getPerformance(app);
+}
