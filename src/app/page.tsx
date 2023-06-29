@@ -1,18 +1,23 @@
+"use client";
 import { Inter } from "next/font/google";
 import { Footer } from "./Components/Footer";
 import { IntroductionSection } from "./Components/IntroductionSection";
 import Navbar from "./Components/Navbar";
 import { TimeLineSection } from "./Components/TimeLineSection";
+import { logEvent, getAnalytics } from "firebase/analytics";
+import { useEffect } from "react";
+import { app } from "./firebase.config";
 
 const inter = Inter({ subsets: ["latin"] });
-import { getAnalytics, logEvent } from "firebase/analytics";
 
-const analytics = getAnalytics();
-logEvent(analytics, "page_view", {
-  page_location: "Home",
-  page_title: "Mateus Amaral",
-});
 export default function Home() {
+  useEffect(() => {
+    logEvent(getAnalytics(app), "page_view", {
+      page_location: window.location.hostname,
+      page_path: window.location.pathname,
+      page_title: "Mateus Amaral",
+    });
+  }, []);
   return (
     <>
       <header>
