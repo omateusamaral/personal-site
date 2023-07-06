@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { SocialMedias } from "./SocialMedias";
+import { Trans, useTranslation } from "react-i18next";
 
 export function IntroductionSection() {
+  const { t } = useTranslation();
+
   return (
     <section className=" p-4 pb-8  w-full bg-zinc-950">
       <div className="flex justify-center">
@@ -12,7 +15,7 @@ export function IntroductionSection() {
             Mateus Amaral
           </h1>
           <h2 className="text-2xl font-normal leading-normal mt-0 mb-2 text-white">
-            Software engineer at{" "}
+            <Trans t={t}>Desenvolvedor de software na</Trans>{" "}
             <a
               href="https://opencircle.com.br/"
               className="font-medium text-white hover:underline"
@@ -24,10 +27,16 @@ export function IntroductionSection() {
           </h2>
 
           <p className="text-lg font-normal leading-normal mt-0 mb-2 text-gray-500 w-60">
-            I am always looking to improve my technical skills and contribute to
+            <Trans t={t}>
+              Estou sempre à procura de melhorar as minhas competências técnicas
+              e contribuir para
+            </Trans>
             <br />
-            the continuous improvement of the project. If you need a reliable
-            and experienced developer, I am available to work together.
+            <Trans t={t}>
+              a melhoria contínua do projeto. Se precisar de um programador
+              confiável e experiente, estou disponível para trabalhar em
+              conjunto.
+            </Trans>
           </p>
           <div className="lg:flex flex-grow  justify-start">
             <SocialMedias />

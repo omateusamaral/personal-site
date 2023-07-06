@@ -1,6 +1,7 @@
 import { getAnalytics, logEvent } from "firebase/analytics";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { app } from "../firebase.config";
+import { Trans, useTranslation } from "react-i18next";
 
 export interface ChronologyItemProps {
   title: string;
@@ -14,6 +15,8 @@ export function ChronologyItem({
   link,
   description,
 }: ChronologyItemProps) {
+  const { t } = useTranslation();
+
   function handleClickLearnMore(link: string, title: string) {
     if (typeof window !== "undefined") {
       logEvent(getAnalytics(app), "view_item_list", {
@@ -42,7 +45,8 @@ export function ChronologyItem({
           rel="noreferrer"
           onClick={() => handleClickLearnMore(link, title)}
         >
-          Learn more <AiOutlineArrowRight className="ml-2" size={14} />
+          <Trans t={t}>Saiba mais</Trans>
+          <AiOutlineArrowRight className="ml-2" size={14} />
         </a>
       )}
     </li>
