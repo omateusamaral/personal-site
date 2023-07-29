@@ -2,10 +2,23 @@ import { ChronologyItemProps } from "./Components/ChronologyItem";
 
 export const chronologies: ChronologyItemProps[] = [
   {
-    date: "July 2021 -  present",
-    title: "Junior Programmer at OpenCircle",
+    date: "July 2023",
+    title: "Project common--snippets",
     description:
-      "I work as junior programmer at OpenCircle. I worked with React, NodeJS, Express, React-Native, micro-services, micro-front-ends and more",
+      "In this project, I created a snippet and published it on VSCODE to facilitate the creation of React components or component testing. The idea is to expand it to include Node.js and other languages:",
+    link: "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
+  },
+  {
+    date: "July 2023 - Present",
+    title: "Mid-Level Developer at OpenCircle",
+    description:
+      "I work as a mid-level developer at OpenCircle, primarily focusing on React, NodeJS (Nestjs), React-Native, micro-services, micro-front-ends with NX, and more",
+  },
+  {
+    date: "July 2021 - July 2023",
+    title: "Junior Developer at OpenCircle",
+    description:
+      "I worked as a junior developer at OpenCircle, mainly working with React, NodeJS, Express, React-Native, micro-services, micro-front-ends, and more",
   },
 
   {
@@ -50,7 +63,20 @@ export const chronologies: ChronologyItemProps[] = [
 
 export const chronologiesPT: ChronologyItemProps[] = [
   {
-    date: "Julho 2021 - presente",
+    date: "Julho 2023",
+    title: "Projeto common--snippets",
+    description:
+      "Neste projeto criei um snippet e publiquei no VSCODE onde a ideia é facilitar criação de componentes ou testes de componentes react, a ideia é evoluir para nodejs e outras linguagens:",
+    link: "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
+  },
+  {
+    date: "Julho 2023 - presente",
+    title: "Programador Pleno na OpenCircle",
+    description:
+      "Trabalho como programador pleno na OpenCircle. Trabalho com React, NodeJS (Nestjs),  React-Native, micro-serviços, micro-front-ends com NX e mais",
+  },
+  {
+    date: "Julho 2021 - Julho 2023",
     title: "Programador Júnior na OpenCircle",
     description:
       "Trabalho como programador júnior na OpenCircle. Trabalhei com React, NodeJS, Express, React-Native, micro-serviços, micro-front-ends e mais",

@@ -3,7 +3,10 @@ import { chronologies, chronologiesPT } from "../constants";
 import { ChronologyItem } from "./ChronologyItem";
 import { useMemo } from "react";
 
-export function ChronologyList() {
+interface ChronologyListProps {
+  itemsLength: number;
+}
+export function ChronologyList({ itemsLength }: ChronologyListProps) {
   const { i18n } = useTranslation();
 
   const currentChronologies =
@@ -12,7 +15,7 @@ export function ChronologyList() {
   const ChronologyListMemoized = useMemo(
     () => (
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
-        {currentChronologies.map((chronology) => (
+        {currentChronologies.slice(0, itemsLength).map((chronology) => (
           <ChronologyItem
             key={chronology.date}
             date={chronology.date}
@@ -23,7 +26,7 @@ export function ChronologyList() {
         ))}
       </ol>
     ),
-    [currentChronologies]
+    [currentChronologies, itemsLength]
   );
   return <>{ChronologyListMemoized}</>;
 }
