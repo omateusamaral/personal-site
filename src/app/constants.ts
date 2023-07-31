@@ -39,6 +39,19 @@ export const chronologies: ChronologyItemProps[] = [
   },
 
   {
+    date: "Jan 2022",
+    title: "Lorem Ipsum Generator",
+    description:
+      "Project where I created a small lorem ipsum generator using vite, tailwind, and react.",
+    link: "https://omateusamaral.github.io/lorem-ipsum-generator",
+  },
+  {
+    date: "Aug 2021",
+    title: "Currency Converter App",
+    description: "Currency converter app using react-native.",
+    link: "https://github.com/omateusamaral/conversor-de-moeda-app",
+  },
+  {
     date: "Jun 2021",
     title: "An App that can read a QRCode",
     description:
@@ -99,6 +112,20 @@ export const chronologiesPT: ChronologyItemProps[] = [
     link: "https://github.com/omateusamaral/whatsapp-send-automatic-message-bills",
   },
 
+  {
+    date: "Jan 2022",
+    title: "Lorem Ipsum Generator",
+    description:
+      "Projeto onde criei um pequeno gerador de lorem ipsum utilizando, vite,tailwind e react.",
+    link: "https://omateusamaral.github.io/lorem-ipsum-generator",
+  },
+
+  {
+    date: "Ago 2021",
+    title: "App conversor de moeda",
+    description: "Conversor de moeda utilizando react-native.",
+    link: "https://github.com/omateusamaral/conversor-de-moeda-app",
+  },
   {
     date: "Jun 2021",
     title: "Um aplicativo que pode ler um QRCode",
