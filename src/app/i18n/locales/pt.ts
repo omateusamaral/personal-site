@@ -5,7 +5,7 @@ export default {
     "Meus Projetos e minha evolução profissional":
       "Meus Projetos e minha evolução profissional",
     "Ver mais": "Ver mais",
-    "Desenvolvedor de software na": "Desenvolvedor de software na",
+    "Desenvolvedor de software Pleno": "Desenvolvedor de software Pleno",
     "Estou sempre à procura de melhorar as minhas competências técnicas e contribuir para":
       "Estou sempre à procura de melhorar as minhas competências técnicas e contribuir para",
     "a melhoria contínua do projeto. Se precisar de um programador confiável e experiente, estou disponível para trabalhar em conjunto.":

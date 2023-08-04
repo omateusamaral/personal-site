@@ -15,15 +15,7 @@ export function IntroductionSection() {
             Mateus Amaral
           </h1>
           <h2 className="text-2xl font-normal leading-normal mt-0 mb-2 text-white">
-            <Trans t={t}>Desenvolvedor de software na</Trans>{" "}
-            <a
-              href="https://opencircle.com.br/"
-              className="font-medium text-white hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open Circle
-            </a>
+            <Trans t={t}>Desenvolvedor de software Pleno</Trans>
           </h2>
 
           <p className="text-lg font-normal leading-normal mt-0 mb-2 text-gray-500 w-60">
