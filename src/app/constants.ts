@@ -2,6 +2,13 @@ import { ChronologyItemProps } from "./Components/ChronologyItem";
 
 export const chronologies: ChronologyItemProps[] = [
   {
+    date: "August 2023",
+    title: "First Article Written on Medium",
+    description:
+      "I wrote a short article recounting my experience of how it was to create an extension for vscode.",
+    link: "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
+  },
+  {
     date: "July 2023",
     title: "Project common--snippets",
     description:
@@ -75,6 +82,13 @@ export const chronologies: ChronologyItemProps[] = [
 ];
 
 export const chronologiesPT: ChronologyItemProps[] = [
+  {
+    date: "Agosto 2023",
+    title: "Primeiro artigo escrito no medium",
+    description:
+      "Escrevi um pequeno artigo contando minha expirência de como foi criar uma extensão para o vscode.",
+    link: "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
+  },
   {
     date: "Julho 2023",
     title: "Projeto common--snippets",
