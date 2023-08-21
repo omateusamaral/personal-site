@@ -3,6 +3,13 @@ import { ChronologyItemProps } from "./Components/ChronologyItem";
 export const chronologies: ChronologyItemProps[] = [
   {
     date: "August 2023",
+    title: "Coupleflix Website",
+    description:
+      "The best website for couples seeking movie and series recommendations based on their preferences",
+    link: "https://www.coupleflix.com.br/",
+  },
+  {
+    date: "August 2023",
     title: "First Article Written on Medium",
     description:
       "I wrote a short article recounting my experience of how it was to create an extension for vscode.",
@@ -82,6 +89,13 @@ export const chronologies: ChronologyItemProps[] = [
 ];
 
 export const chronologiesPT: ChronologyItemProps[] = [
+  {
+    date: "Agosto 2023",
+    title: "Site Coupleflix",
+    description:
+      "O melhor site para casais que queiram recomendações de filmes e séries com base em seus gostos",
+    link: "https://www.coupleflix.com.br/",
+  },
   {
     date: "Agosto 2023",
     title: "Primeiro artigo escrito no medium",
