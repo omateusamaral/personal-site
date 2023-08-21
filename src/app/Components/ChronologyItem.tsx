@@ -7,6 +7,7 @@ export interface ChronologyItemProps {
   title: string;
   date: string;
   description: string;
+  id: string;
   link?: string;
 }
 export function ChronologyItem({

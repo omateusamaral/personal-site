@@ -11,17 +11,17 @@ export function ChronologyList({ itemsLength }: ChronologyListProps) {
 
   const currentChronologies =
     i18n.language === "pt" ? chronologiesPT : chronologies;
-
   const ChronologyListMemoized = useMemo(
     () => (
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         {currentChronologies.slice(0, itemsLength).map((chronology) => (
           <ChronologyItem
-            key={chronology.date}
+            key={chronology.id}
             date={chronology.date}
             description={chronology.description}
             title={chronology.title}
             link={chronology.link}
+            id={chronology.id}
           />
         ))}
       </ol>
