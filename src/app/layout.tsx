@@ -3,6 +3,7 @@ import "./globals.css";
 import { Footer } from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import { Toaster } from "react-hot-toast";
+import Layout from "./Components/Layout";
 
 export const metadata: Metadata = {
   title: "Mateus Amaral - Software engineer",
@@ -25,16 +26,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main
-          className="flex min-h-screen flex-col items-center justify-between"
-          style={{
-            background:
-              "linear-gradient(254deg, rgba(2,0,36,1) 0%, rgba(27,27,50,1) 30%, rgba(13,13,14,1) 100%)",
-          }}
-        >
+        <Layout>
           <Toaster />
           {children}
-        </main>
+        </Layout>
         <Footer />
       </body>
     </html>

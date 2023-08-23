@@ -6,7 +6,7 @@ import { logEvent, getAnalytics } from "firebase/analytics";
 import { app } from "../firebase.config";
 import { Trans, useTranslation } from "react-i18next";
 
-export default function page() {
+export default function Contact() {
   const { t } = useTranslation();
   const [emailFields, setEmailFields] = useState<EmailFields>({
     name: "",
@@ -52,7 +52,7 @@ export default function page() {
         <p className="font-medium text-white text-xl">
           <Trans t={t}>Seja sua ideia um</Trans>{" "}
           <span className="text-yellow-300">site, </span>
-          <span className="text-yellow-300">app</span>
+          <span className="text-yellow-300">app</span>{" "}
           <Trans t={t}>ou até mesmo uma</Trans>{" "}
           <span className="text-yellow-300">
             <Trans t={t}>automação</Trans>
@@ -70,13 +70,13 @@ export default function page() {
               htmlFor="name"
               className="mb-3 block text-base font-medium text-white"
             >
-              Nome completo
+              <Trans t={t}>Nome completo</Trans>
             </label>
             <input
               type="text"
               name="name"
               id="name"
-              placeholder="Nome completo"
+              placeholder="Michael Jordan"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("name", event.target.value);
@@ -88,7 +88,7 @@ export default function page() {
               htmlFor="email"
               className="mb-3 block text-base font-medium text-white"
             >
-              E-mail
+              <Trans t={t}>E-mail</Trans>
             </label>
             <input
               type="email"
@@ -106,13 +106,13 @@ export default function page() {
               htmlFor="subject"
               className="mb-3 block text-base font-medium text-white"
             >
-              Assunto
+              <Trans t={t}>Assunto</Trans>
             </label>
             <input
               type="text"
               name="subject"
               id="subject"
-              placeholder="Assunto"
+              placeholder={t("Assunto")}
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("subject", event.target.value);
@@ -124,13 +124,13 @@ export default function page() {
               htmlFor="message"
               className="mb-3 block text-base font-medium text-white"
             >
-              Digite aqui sua ideia
+              <Trans t={t}>Digite aqui sua ideia</Trans>
             </label>
             <textarea
               rows={4}
               name="message"
               id="message"
-              placeholder="De forma simples e breve digite aqui sua ideia"
+              placeholder={t("De forma simples e breve digite aqui sua ideia")}
               className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("body", event.target.value);
@@ -143,7 +143,7 @@ export default function page() {
               type="button"
               onClick={handleSubmit}
             >
-              Enviar proposta
+              <Trans t={t}>Enviar proposta</Trans>
             </button>
           </div>
         </form>

@@ -5,17 +5,7 @@ import { TimeLineSection } from "./Components/TimeLineSection";
 import { logEvent, getAnalytics } from "firebase/analytics";
 import { Suspense, useEffect } from "react";
 import { app } from "./firebase.config";
-import i18next from "i18next";
-import { initReactI18next } from "react-i18next";
-import { resources } from "./i18n";
 
-i18next.use(initReactI18next).init({
-  resources: resources,
-  fallbackLng: "pt",
-  interpolation: {
-    escapeValue: false,
-  },
-});
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
