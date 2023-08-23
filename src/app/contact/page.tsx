@@ -1,10 +1,13 @@
 "use client";
 
-import { useState } from "react";
-import { EmailFields, hasErrorInFields } from "../helpers";
-import emailjs from "@emailjs/browser";
-import { toast } from "react-hot-toast";
+import { useEffect, useState } from "react";
+import { EmailFields, hasErrorInFields, sendEmail } from "../helpers";
+import { logEvent, getAnalytics } from "firebase/analytics";
+import { app } from "../firebase.config";
+import { Trans, useTranslation } from "react-i18next";
+
 export default function page() {
+  const { t } = useTranslation();
   const [emailFields, setEmailFields] = useState<EmailFields>({
     name: "",
     email: "",
@@ -17,20 +20,7 @@ export default function page() {
       return;
     }
 
-    await emailjs.send(
-      process.env.NEXT_PUBLIC_EMAILJS__SERVICE_ID ?? "",
-      process.env.NEXT_PUBLIC_EMAILJS__TEMPLATE_ID ?? "",
-      {
-        from_name: emailFields.name,
-        message: emailFields.body,
-        email: emailFields.email,
-      },
-      process.env.NEXT_PUBLIC_EMAILJS__PUBLIC_KEY
-    );
-
-    toast.success("E-mail enviado e iremos análisar sua proposta.", {
-      id: "success-email-sended",
-    });
+    await sendEmail(emailFields);
   }
 
   function handleChange(context: string, value: string) {
@@ -39,25 +29,41 @@ export default function page() {
       [context]: value,
     });
   }
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      logEvent(getAnalytics(app), "page_view", {
+        page_location: "/contact",
+        page_path: "/contact",
+      });
+    }
+  }, []);
   return (
-    <div className="flex flex-1 w-full justify-center">
-      <div className="flex align-center flex-col justify-center  max-w-md w-2/4">
+    <div className="flex flex-1 w-full flex-col lg:flex-row p-4  justify-center">
+      <div
+        className="flex align-center flex-col justify-center  max-w-md 
+      lg:w-2/4 w-full"
+      >
         <h1 className="text-white font-bold text-4xl">
-          Quer que sua ideia vire realidade?
+          <Trans t={t}>Quer que sua ideia vire realidade?</Trans>
         </h1>
         <h4 className="text-yellow-300  font-semibold text-2xl">
-          Entre em contanto,
+          <Trans t={t}>Entre em contanto</Trans>,
         </h4>
         <p className="font-medium text-white text-xl">
-          Seja sua ideia um <span className="text-yellow-300">site, </span>
-          <span className="text-yellow-300">app</span> ou até mesmo uma{" "}
-          <span className="text-yellow-300">automação</span>, posso realizar
+          <Trans t={t}>Seja sua ideia um</Trans>{" "}
+          <span className="text-yellow-300">site, </span>
+          <span className="text-yellow-300">app</span>
+          <Trans t={t}>ou até mesmo uma</Trans>{" "}
+          <span className="text-yellow-300">
+            <Trans t={t}>automação</Trans>
+          </span>
+          , <Trans t={t}>posso realizar</Trans>
         </p>
         <h4 className="font-medium text-white text-lg">
-          unindo sua ideia com a tecnologia.
+          <Trans t={t}>unindo sua ideia com a tecnologia.</Trans>
         </h4>
       </div>
-      <div className="w-2/4  flex justify-center items-center">
+      <div className="lg:w-2/4 w-full flex justify-center items-center">
         <form className="w-full">
           <div className="mb-5">
             <label
@@ -124,7 +130,7 @@ export default function page() {
               rows={4}
               name="message"
               id="message"
-              placeholder="de forma simples e breve digite aqui sua ideia"
+              placeholder="De forma simples e breve digite aqui sua ideia"
               className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("body", event.target.value);
