@@ -64,13 +64,13 @@ export default function page() {
               htmlFor="name"
               className="mb-3 block text-base font-medium text-white"
             >
-              Full Name
+              Nome completo
             </label>
             <input
               type="text"
               name="name"
               id="name"
-              placeholder="Full Name"
+              placeholder="Nome completo"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("name", event.target.value);
@@ -82,13 +82,13 @@ export default function page() {
               htmlFor="email"
               className="mb-3 block text-base font-medium text-white"
             >
-              Email Address
+              E-mail
             </label>
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="example@domain.com"
+              placeholder="email@domain.com"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("email", event.target.value);
@@ -100,13 +100,13 @@ export default function page() {
               htmlFor="subject"
               className="mb-3 block text-base font-medium text-white"
             >
-              Subject
+              Assunto
             </label>
             <input
               type="text"
               name="subject"
               id="subject"
-              placeholder="Enter your subject"
+              placeholder="Assunto"
               className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("subject", event.target.value);
@@ -118,13 +118,13 @@ export default function page() {
               htmlFor="message"
               className="mb-3 block text-base font-medium text-white"
             >
-              Message
+              Digite aqui sua ideia
             </label>
             <textarea
               rows={4}
               name="message"
               id="message"
-              placeholder="Type your message"
+              placeholder="de forma simples e breve digite aqui sua ideia"
               className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
               onChange={(event) => {
                 handleChange("body", event.target.value);
@@ -137,7 +137,7 @@ export default function page() {
               type="button"
               onClick={handleSubmit}
             >
-              Submit
+              Enviar proposta
             </button>
           </div>
         </form>
