@@ -1,5 +1,9 @@
 import { Metadata } from "next";
 import "./globals.css";
+import { Footer } from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import { Toaster } from "react-hot-toast";
+import Layout from "./Components/Layout";
 
 export const metadata: Metadata = {
   title: "Mateus Amaral - Software engineer",
@@ -20,7 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <Layout>
+          <Toaster />
+          {children}
+        </Layout>
+        <Footer />
+      </body>
     </html>
   );
 }
