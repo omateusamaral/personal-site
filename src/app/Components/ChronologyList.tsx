@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { chronologies, chronologiesPT } from "../constants";
+import { chronologies, chronologiesPT } from "../chronologies.json";
 import { ChronologyItem } from "./ChronologyItem";
 import { useMemo } from "react";
 
