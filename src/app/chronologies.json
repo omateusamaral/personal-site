@@ -1,215 +1,203 @@
 {
-  "chronologies":[
+  "chronologies": [
     {
-"date": "August 2023",
-"title": "Automation for File Organization in Python",
-"description": "In this project, I developed an automation tool aimed at streamlining the process of organizing files into folders. The program creates folders based on the file extension and moves the files to the appropriate folders. I worked with Python, OS, and more.",
-"link": "https://github.com/omateusamaral/DeskOrganizer",
-"id": "chronologies-item-13"
-},
-  {
-    "date": "August 2023",
-    "title": "Coupleflix Website",
-    "description":
-      "The best website for couples seeking movie and series recommendations based on their preferences",
-    "link": "https://www.coupleflix.com.br/",
-    "id": "chronologies-item-1"
-  },
-  {
-    "date": "August 2023",
-    "title": "First Article Written on Medium",
-    "description":
-      "I wrote a short article recounting my experience of how it was to create an extension for vscode.",
-    "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
-    "id": "chronologies-item-2"
-  },
-  {
-    "date": "July 2023",
-    "title": "Project common--snippets",
-    "description":
-      "In this project, I created a snippet and published it on VSCODE to facilitate the creation of React components or component testing. The idea is to expand it to include Node.js and other languages:",
-    "link": "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
-    "id": "chronologies-item-3"
-  },
-  {
-    "date": "July 2023 - Present",
-    "title": "Mid-Level Developer at OpenCircle",
-    "description":
-      "I work as a mid-level developer at OpenCircle, primarily focusing on React, NodeJS (Nestjs), React-Native, micro-services, micro-front-ends with NX, and more",
-    "id": "chronologies-item-4"
-  },
-  {
-    "date": "July 2021 - July 2023",
-    "title": "Junior Developer at OpenCircle",
-    "description":
-      "I worked as a junior developer at OpenCircle, mainly working with React, NodeJS, Express, React-Native, micro-services, micro-front-ends, and more",
-    "id": "chronologies-item-5"
-  },
+      "id": "chronologies-item-14",
+      "date": "April 2024 - Present",
+      "title": "Mid-Level Developer at BMS",
+      "description": "I started a new job as a mid-level software developer, where the challenge is to create a project that facilitates companies that want to advertise their company on sites that are listed on exchanges (such as google). This project is very challenging because, in addition to being a multinational project, it must be very scalable in both the back-end and front-end."
+    },
+    {
+      "date": "August 2023",
+      "title": "Automation for File Organization in Python",
+      "description": "In this project, I developed an automation tool aimed at streamlining the process of organizing files into folders. The program creates folders based on the file extension and moves the files to the appropriate folders. I worked with Python, OS, and more.",
+      "link": "https://github.com/omateusamaral/DeskOrganizer",
+      "id": "chronologies-item-13"
+    },
+    {
+      "date": "August 2023",
+      "title": "Coupleflix Website",
+      "description": "The best website for couples seeking movie and series recommendations based on their preferences",
+      "link": "https://www.coupleflix.com.br/",
+      "id": "chronologies-item-1"
+    },
+    {
+      "date": "August 2023",
+      "title": "First Article Written on Medium",
+      "description": "I wrote a short article recounting my experience of how it was to create an extension for vscode.",
+      "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
+      "id": "chronologies-item-2"
+    },
+    {
+      "date": "July 2023",
+      "title": "Project common--snippets",
+      "description": "In this project, I created a snippet and published it on VSCODE to facilitate the creation of React components or component testing. The idea is to expand it to include Node.js and other languages:",
+      "link": "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
+      "id": "chronologies-item-3"
+    },
+    {
+      "date": "July 2023 - April 2024",
+      "title": "Mid-Level Developer at OpenCircle",
+      "description": "I work as a mid-level developer at OpenCircle, primarily focusing on React, NodeJS (Nestjs), React-Native, micro-services, micro-front-ends with NX, and more",
+      "id": "chronologies-item-4"
+    },
+    {
+      "date": "July 2021 - July 2023",
+      "title": "Junior Developer at OpenCircle",
+      "description": "I worked as a junior developer at OpenCircle, mainly working with React, NodeJS, Express, React-Native, micro-services, micro-front-ends, and more",
+      "id": "chronologies-item-5"
+    },
 
-  {
-    "date": "Dec 2022",
-    "title": "Project that automates video publishing on youtube",
-    "description":
-      "In this project, I created a program that automates video publishing on youtube. I worked with NodeJS, Youtube-api and more. link to the code:",
-    "link": "https://github.com/omateusamaral/robot-clip",
-    "id": "chronologies-item-6"
-  },
+    {
+      "date": "Dec 2022",
+      "title": "Project that automates video publishing on youtube",
+      "description": "In this project, I created a program that automates video publishing on youtube. I worked with NodeJS, Youtube-api and more. link to the code:",
+      "link": "https://github.com/omateusamaral/robot-clip",
+      "id": "chronologies-item-6"
+    },
 
-  {
-    "date": "March 2022",
-    "title":
-      "Project that sends a message to whatsapp when a bill is about to due date",
-    "description":
-      "In this project, I created a program that sends a message to whatsapp when a bill is about to due date. I worked with NodeJS, express, cron and more. link to the code: ",
-    "link": "https://github.com/omateusamaral/whatsapp-send-automatic-message-bills",
-    "id": "chronologies-item-7"
-  },
+    {
+      "date": "March 2022",
+      "title": "Project that sends a message to whatsapp when a bill is about to due date",
+      "description": "In this project, I created a program that sends a message to whatsapp when a bill is about to due date. I worked with NodeJS, express, cron and more. link to the code: ",
+      "link": "https://github.com/omateusamaral/whatsapp-send-automatic-message-bills",
+      "id": "chronologies-item-7"
+    },
 
-  {
-    "date": "Jan 2022",
-    "title": "Lorem Ipsum Generator",
-    "description":
-      "Project where I created a small lorem ipsum generator using vite, tailwind, and react.",
-    "link": "https://omateusamaral.github.io/lorem-ipsum-generator",
-    "id": "chronologies-item-8"
-  },
-  {
-    "date": "Aug 2021",
-    "title": "Currency Converter App",
-    "description": "Currency converter app using react-native.",
-    "link": "https://github.com/omateusamaral/conversor-de-moeda-app",
-    "id": "chronologies-item-9"
-  },
-  {
-    "date": "Jun 2021",
-    "title": "An App that can read a QRCode",
-    "description":
-      "In this project, I created an App that can read a QRCode. I worked with React Native, expo, PlayStore and more. link to the playStore:",
-    "link": " https://play.google.com/store/apps/details?id=com.omateusamaral.leitordeqrcode&pli=1",
-    "id": "chronologies-item-10"
-  },
+    {
+      "date": "Jan 2022",
+      "title": "Lorem Ipsum Generator",
+      "description": "Project where I created a small lorem ipsum generator using vite, tailwind, and react.",
+      "link": "https://omateusamaral.github.io/lorem-ipsum-generator",
+      "id": "chronologies-item-8"
+    },
+    {
+      "date": "Aug 2021",
+      "title": "Currency Converter App",
+      "description": "Currency converter app using react-native.",
+      "link": "https://github.com/omateusamaral/conversor-de-moeda-app",
+      "id": "chronologies-item-9"
+    },
+    {
+      "date": "Jun 2021",
+      "title": "An App that can read a QRCode",
+      "description": "In this project, I created an App that can read a QRCode. I worked with React Native, expo, PlayStore and more. link to the playStore:",
+      "link": " https://play.google.com/store/apps/details?id=com.omateusamaral.leitordeqrcode&pli=1",
+      "id": "chronologies-item-10"
+    },
 
-  {
-    "date": "may 2021",
-    "title": "Promoted to Junior Programmer",
-    "description":
-      "I was promoted to Junior Programmer. I worked with PHP, PHP PHALCON, NodeJS, Express, React-Native and more.",
-    "id": "chronologies-item-11"
-  },
+    {
+      "date": "may 2021",
+      "title": "Promoted to Junior Programmer",
+      "description": "I was promoted to Junior Programmer. I worked with PHP, PHP PHALCON, NodeJS, Express, React-Native and more.",
+      "id": "chronologies-item-11"
+    },
 
-  {
-    "date": "July 2020",
-    "title": "First job as software engineer intern",
-    "description":
-      "I worked as a software engineer intern for a company called KFE SOFTWARE. I worked with PHP, PHP PHALCON, NodeJS, Express, React-Native and more.",
-    "id": "chronologies-item-12"
-  }
-],
-"chronologiesPT":[
-  {
-    "date" :"Agosto 2023",
-    "title":"Automação para organização de arquivos em python",
-    "description":"Neste projeto criei uma automação onde visa facilitar a organização de arquivos em pastas, onde o programa cria pastas com base na extensão do arquivo e move para a pasta correta. Trabalhei com python, OS e mais.",
-    "link":"https://github.com/omateusamaral/DeskOrganizer",
-    "id":"chronologies-pt-item-13"
-  },
- {
-    "date": "Agosto 2023",
-    "title": "Site Coupleflix",
-    "description":
-      "O melhor site para casais que queiram recomendações de filmes e séries com base em seus gostos",
-    "link": "https://www.coupleflix.com.br/",
-    "id": "chronologies-pt-item-1"
-  },
-  {
-    "date": "Agosto 2023",
-    "title": "Primeiro artigo escrito no medium",
-    "description":
-      "Escrevi um pequeno artigo contando minha expirência de como foi criar uma extensão para o vscode.",
-    "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
-    "id": "chronologies-pt-item-2"
-  },
-  {
-    "date": "Julho 2023",
-    "title": "Projeto common--snippets",
-    "description":
-      "Neste projeto criei um snippet e publiquei no VSCODE onde a ideia é facilitar criação de componentes ou testes de componentes react, a ideia é evoluir para nodejs e outras linguagens:",
-    "link": "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
-    "id": "chronologies-pt-item-3"
-  },
-  {
-    "date": "Julho 2023 - presente",
-    "title": "Programador Pleno na OpenCircle",
-    "description":
-      "Trabalho como programador pleno na OpenCircle. Trabalho com React, NodeJS (Nestjs),  React-Native, micro-serviços, micro-front-ends com NX e mais",
-    "id": "chronologies-pt-item-4"
-  },
-  {
-    "date": "Julho 2021 - Julho 2023",
-    "title": "Programador Júnior na OpenCircle",
-    "description":
-      "Trabalho como programador júnior na OpenCircle. Trabalhei com React, NodeJS, Express, React-Native, micro-serviços, micro-front-ends e mais",
-    "id": "chronologies-pt-item-5"
-  },
+    {
+      "date": "July 2020",
+      "title": "First job as software engineer intern",
+      "description": "I worked as a software engineer intern for a company called KFE SOFTWARE. I worked with PHP, PHP PHALCON, NodeJS, Express, React-Native and more.",
+      "id": "chronologies-item-12"
+    }
+  ],
+  "chronologiesPT": [
+    {
+      "id": "chronologies-pt-item-14",
+      "date": "Abril 2024 - Presente",
+      "title": "Desenvolvedor de Software Pleno na BMS",
+      "description": "Eu comecei em um novo emprego como desenvolvedor de software Pleno, onde o desafio é criar um projeto que facilita empresas que queiram anunciar sua empresa para sites que estão listada em exchanges(como google). Este projeto é bastante desafiador pois além de ser um projeto multinacional deve ser bastante escalável tanto no back-end e front-end."
+    },
+    {
+      "date": "Agosto 2023",
+      "title": "Automação para organização de arquivos em python",
+      "description": "Neste projeto criei uma automação onde visa facilitar a organização de arquivos em pastas, onde o programa cria pastas com base na extensão do arquivo e move para a pasta correta. Trabalhei com python, OS e mais.",
+      "link": "https://github.com/omateusamaral/DeskOrganizer",
+      "id": "chronologies-pt-item-13"
+    },
+    {
+      "date": "Agosto 2023",
+      "title": "Site Coupleflix",
+      "description": "O melhor site para casais que queiram recomendações de filmes e séries com base em seus gostos",
+      "link": "https://www.coupleflix.com.br/",
+      "id": "chronologies-pt-item-1"
+    },
+    {
+      "date": "Agosto 2023",
+      "title": "Primeiro artigo escrito no medium",
+      "description": "Escrevi um pequeno artigo contando minha expirência de como foi criar uma extensão para o vscode.",
+      "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
+      "id": "chronologies-pt-item-2"
+    },
+    {
+      "date": "Julho 2023",
+      "title": "Projeto common--snippets",
+      "description": "Neste projeto criei um snippet e publiquei no VSCODE onde a ideia é facilitar criação de componentes ou testes de componentes react, a ideia é evoluir para nodejs e outras linguagens:",
+      "link": "https://marketplace.visualstudio.com/items?itemName=MateusAmaral.mateus-amaral--common-snippets",
+      "id": "chronologies-pt-item-3"
+    },
+    {
+      "date": "Julho 2023 - Abril 2024",
+      "title": "Programador Pleno na OpenCircle",
+      "description": "Trabalho como programador pleno na OpenCircle. Trabalho com React, NodeJS (Nestjs),  React-Native, micro-serviços, micro-front-ends com NX e mais",
+      "id": "chronologies-pt-item-4"
+    },
+    {
+      "date": "Julho 2021 - Julho 2023",
+      "title": "Programador Júnior na OpenCircle",
+      "description": "Trabalho como programador júnior na OpenCircle. Trabalhei com React, NodeJS, Express, React-Native, micro-serviços, micro-front-ends e mais",
+      "id": "chronologies-pt-item-5"
+    },
 
-  {
-    "date": "Dez 2022",
-    "title": "Projeto que automatiza a publicação de vídeos no YouTube",
-    "description":
-      "Neste projeto, criei um programa que automatiza a publicação de vídeos no YouTube. Trabalhei com NodeJS, Youtube-api e mais. Link para o código:",
-    "link": "https://github.com/omateusamaral/robot-clip",
-    "id": "chronologies-pt-item-6"
-  },
+    {
+      "date": "Dez 2022",
+      "title": "Projeto que automatiza a publicação de vídeos no YouTube",
+      "description": "Neste projeto, criei um programa que automatiza a publicação de vídeos no YouTube. Trabalhei com NodeJS, Youtube-api e mais. Link para o código:",
+      "link": "https://github.com/omateusamaral/robot-clip",
+      "id": "chronologies-pt-item-6"
+    },
 
-  {
-    "date": "Março 2022",
-    "title":
-      "Projeto que envia uma mensagem no WhatsApp quando uma conta está prestes a vencer",
-    "description":
-      "Neste projeto, criei um programa que envia uma mensagem no WhatsApp quando uma conta está prestes a vencer. Trabalhei com NodeJS, express, cron e mais. Link para o código: ",
-    "link": "https://github.com/omateusamaral/whatsapp-send-automatic-message-bills",
-    "id": "chronologies-pt-item-7"
-  },
+    {
+      "date": "Março 2022",
+      "title": "Projeto que envia uma mensagem no WhatsApp quando uma conta está prestes a vencer",
+      "description": "Neste projeto, criei um programa que envia uma mensagem no WhatsApp quando uma conta está prestes a vencer. Trabalhei com NodeJS, express, cron e mais. Link para o código: ",
+      "link": "https://github.com/omateusamaral/whatsapp-send-automatic-message-bills",
+      "id": "chronologies-pt-item-7"
+    },
 
-  {
-    "date": "Jan 2022",
-    "title": "Lorem Ipsum Generator",
-    "description":
-      "Projeto onde criei um pequeno gerador de lorem ipsum utilizando, vite,tailwind e react.",
-    "link": "https://omateusamaral.github.io/lorem-ipsum-generator",
-    "id": "chronologies-pt-item-8"
-  },
+    {
+      "date": "Jan 2022",
+      "title": "Lorem Ipsum Generator",
+      "description": "Projeto onde criei um pequeno gerador de lorem ipsum utilizando, vite,tailwind e react.",
+      "link": "https://omateusamaral.github.io/lorem-ipsum-generator",
+      "id": "chronologies-pt-item-8"
+    },
 
-  {
-    "date": "Ago 2021",
-    "title": "App conversor de moeda",
-    "description": "Conversor de moeda utilizando react-native.",
-    "link": "https://github.com/omateusamaral/conversor-de-moeda-app",
-    "id": "chronologies-pt-item-9"
-  },
-  {
-    "date": "Jun 2021",
-    "title": "Um aplicativo que pode ler um QRCode",
-    "description":
-      "Neste projeto, criei um aplicativo que pode ler um QRCode. Trabalhei com React Native, expo, PlayStore e mais. Link para a PlayStore:",
-    "link": " https://play.google.com/store/apps/details?id=com.omateusamaral.leitordeqrcode&pli=1",
-    "id": "chronologies-pt-item-10"
-  },
+    {
+      "date": "Ago 2021",
+      "title": "App conversor de moeda",
+      "description": "Conversor de moeda utilizando react-native.",
+      "link": "https://github.com/omateusamaral/conversor-de-moeda-app",
+      "id": "chronologies-pt-item-9"
+    },
+    {
+      "date": "Jun 2021",
+      "title": "Um aplicativo que pode ler um QRCode",
+      "description": "Neste projeto, criei um aplicativo que pode ler um QRCode. Trabalhei com React Native, expo, PlayStore e mais. Link para a PlayStore:",
+      "link": " https://play.google.com/store/apps/details?id=com.omateusamaral.leitordeqrcode&pli=1",
+      "id": "chronologies-pt-item-10"
+    },
 
-  {
-    "date": "Maio 2021",
-    "title": "Promovido a Programador Júnior",
-    "description":
-      "Fui promovido a Programador Júnior. Trabalhei com PHP, PHP PHALCON, NodeJS, Express, React-Native e mais.",
-    "id": "chronologies-pt-item-11"
-  },
+    {
+      "date": "Maio 2021",
+      "title": "Promovido a Programador Júnior",
+      "description": "Fui promovido a Programador Júnior. Trabalhei com PHP, PHP PHALCON, NodeJS, Express, React-Native e mais.",
+      "id": "chronologies-pt-item-11"
+    },
 
-  {
-    "date": "Julho 2020",
-    "title": "Primeiro emprego como estagiário de engenharia de software",
-    "description":
-      "Trabalhei como estagiário de engenharia de software em uma empresa chamada KFE SOFTWARE. Trabalhei com PHP, PHP PHALCON, NodeJS, Express, React-Native e mais.",
-    "id": "chronologies-pt-item-12"
-  }
-]
+    {
+      "date": "Julho 2020",
+      "title": "Primeiro emprego como estagiário de engenharia de software",
+      "description": "Trabalhei como estagiário de engenharia de software em uma empresa chamada KFE SOFTWARE. Trabalhei com PHP, PHP PHALCON, NodeJS, Express, React-Native e mais.",
+      "id": "chronologies-pt-item-12"
+    }
+  ]
 }
