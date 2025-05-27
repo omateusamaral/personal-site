@@ -1,8 +1,36 @@
 {
   "chronologies": [
     {
+      "id": "chronologies-item-17",
+      "date": "April 2025",
+      "title": "Third Article on Medium",
+      "description": "I wrote an article on Medium about SOLID — Open/Closed Principle.",
+      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4"
+    },
+    {
+      "id": "chronologies-item-16",
+      "date": "April 2025",
+      "title": "Second Article on Medium",
+      "description": "I wrote an article on Medium about SOLID — Single Responsibility Principle.",
+      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998"
+    },
+    {
+      "id": "chronologies-item-16",
+      "date": "January 2025 - Present",
+      "title": "Back-End Developer – DASA",
+      "description": "I am currently working as a back-end developer at the largest diagnostic medicine company in Latin America and the fifth largest in the world in the sector. I work on integrating with partner companies, sharing patient data with their consent. I also develop systems for generating medical reports and results for patients. My main contribution was acting as the lead developer in the refactoring of the data-sharing process between partner companies, resulting in significant improvements to the codebase and enabling the company to support millions of requests per day through our API."
+    },
+    {
+      "id": "chronologies-item-15",
+      "date": "August 2024",
+      "title": "Development of an App to Discover Movies and Series - Android",
+      "description": "In this project, I developed an Android application that helps users find movies and series. The app allows users to search by title, genre, and other criteria, making it easier to discover new content.",
+      "link": "https://www.linkedin.com/posts/mateus-passos-amaral_bom-dia-pessoal-criei-um-app-que-est%C3%A1-activity-7214657066420867072-QBN5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACrG3DwBo-2ZEIkTF4Cvl8WOAxLzeYwXXEo"
+    },
+
+    {
       "id": "chronologies-item-14",
-      "date": "April 2024 - Present",
+      "date": "April 2024 - December 2024",
       "title": "Mid-Level Developer at BMS",
       "description": "I started a new job as a mid-level software developer, where the challenge is to create a project that facilitates companies that want to advertise their company on sites that are listed on exchanges (such as google). This project is very challenging because, in addition to being a multinational project, it must be very scalable in both the back-end and front-end."
     },
@@ -101,8 +129,35 @@
   ],
   "chronologiesPT": [
     {
+      "id": "chronologies-item-17",
+      "date": "Abril 2025",
+      "title": "Terceiro Artigo no Medium",
+      "description": "Escrevi um artigo no Medium sobre SOLID — Open/Closed Principle.",
+      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4"
+    },
+    {
+      "id": "chronologies-item-16",
+      "date": "Abril 2025",
+      "title": "Segundo Artigo no Medium",
+      "description": "Escrevi um artigo no Medium sobre SOLID — Single Responsibility Principle.",
+      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998"
+    },
+    {
+      "id": "chronologies-item-16",
+      "date": "Janeiro 2025 - Presente",
+      "title": "Desenvolvedor Back-End – DASA",
+      "description": "Atualmente trabalho como desenvolvedor back-end na maior empresa de medicina diagnóstica da América Latina e quinta maior do mundo no setor. Atuo na integração com empresas parceiras, enviando dados de pacientes mediante consentimento. Também desenvolvo sistemas para geração de laudos médicos e resultados para pacientes. Minha principal contribuição foi atuar como desenvolvedor principal na refatoração do processo de compartilhamento de dados entre empresas parceiras, gerando um saldo positivo tanto para o código quanto para a empresa, que agora suporta milhões de requisições por dia por meio da nossa API."
+    },
+    {
+      "id": "chronologies-item-15",
+      "date": "Agosto 2024",
+      "title": "Desenvolvimento de App para encontrar filmes e séries - Android",
+      "description": "Neste projeto, desenvolvi um aplicativo para Android que ajuda os usuários a encontrar filmes e séries. O app permite que os usuários pesquisem por título, gênero e outros critérios, facilitando a descoberta de novos conteúdos.",
+      "link": "https://www.linkedin.com/posts/mateus-passos-amaral_bom-dia-pessoal-criei-um-app-que-est%C3%A1-activity-7214657066420867072-QBN5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACrG3DwBo-2ZEIkTF4Cvl8WOAxLzeYwXXEo"
+    },
+    {
       "id": "chronologies-pt-item-14",
-      "date": "Abril 2024 - Presente",
+      "date": "Abril 2024 - Dezembro 2024",
       "title": "Desenvolvedor de Software Pleno na BMS",
       "description": "Eu comecei em um novo emprego como desenvolvedor de software Pleno, onde o desafio é criar um projeto que facilita empresas que queiram anunciar sua empresa para sites que estão listada em exchanges(como google). Este projeto é bastante desafiador pois além de ser um projeto multinacional deve ser bastante escalável tanto no back-end e front-end."
     },
