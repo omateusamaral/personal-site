@@ -5,14 +5,16 @@
       "date": "April 2025",
       "title": "Third Article on Medium",
       "description": "I wrote an article on Medium about SOLID — Open/Closed Principle.",
-      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4"
+      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4",
+      "public": false
     },
     {
       "id": "chronologies-item-16",
       "date": "April 2025",
       "title": "Second Article on Medium",
       "description": "I wrote an article on Medium about SOLID — Single Responsibility Principle.",
-      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998"
+      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998",
+      "public": false
     },
     {
       "id": "chronologies-item-16",
@@ -53,7 +55,8 @@
       "title": "First Article Written on Medium",
       "description": "I wrote a short article recounting my experience of how it was to create an extension for vscode.",
       "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
-      "id": "chronologies-item-2"
+      "id": "chronologies-item-2",
+      "public": false
     },
     {
       "date": "July 2023",
@@ -133,14 +136,16 @@
       "date": "Abril 2025",
       "title": "Terceiro Artigo no Medium",
       "description": "Escrevi um artigo no Medium sobre SOLID — Open/Closed Principle.",
-      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4"
+      "link": "https://medium.com/@mateus.amaral018/solid-open-closed-principle-877cb13115f4",
+      "public": false
     },
     {
       "id": "chronologies-item-16",
       "date": "Abril 2025",
       "title": "Segundo Artigo no Medium",
       "description": "Escrevi um artigo no Medium sobre SOLID — Single Responsibility Principle.",
-      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998"
+      "link": "https://medium.com/@mateus.amaral018/solid-single-responsibility-principle-d36a98863998",
+      "public": false
     },
     {
       "id": "chronologies-item-16",
@@ -180,7 +185,8 @@
       "title": "Primeiro artigo escrito no medium",
       "description": "Escrevi um pequeno artigo contando minha expirência de como foi criar uma extensão para o vscode.",
       "link": "https://medium.com/@mateus.amaral018/creating-your-first-extension-for-vscode-fb1805b6b4b3",
-      "id": "chronologies-pt-item-2"
+      "id": "chronologies-pt-item-2",
+      "public": false
     },
     {
       "date": "Julho 2023",
